@@ -8,12 +8,12 @@ export interface AlbumProps {}
 // Album used in Detail component
 export interface Album {
   id: number,
-  title: string,
-  artist: string,
-  url: string,
-  image: string,
-  thumbnail_image: string,
-  _created: Date
+  title?: string,
+  artist?: string,
+  url?: string,
+  image?: string,
+  thumbnail_image?: string,
+  _created?: Date
 }
 
 const Albums: React.SFC<AlbumProps> = (props) => {
